@@ -1,0 +1,22 @@
+﻿<Window x:Class="Krystof_20221212.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Krystof_20221212"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtBox1" HorizontalAlignment="Left" Margin="10,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="258" Height="401"/>
+        <TextBox x:Name="txtBox2" HorizontalAlignment="Left" Margin="488,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="302" Height="401"/>
+        <Button Content="Attack" HorizontalAlignment="Left" Margin="273,50,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="Button_Click"/>
+        <Button Content="Attack" HorizontalAlignment="Left" Margin="410,50,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="Button_Click_1"/>
+        <Button Content="Heal" HorizontalAlignment="Left" Margin="273,86,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="Button_Click_2"/>
+        <Button Content="Heal" HorizontalAlignment="Left" Margin="410,86,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="Button_Click_3"/>
+        <Button Content="SuperAttack" HorizontalAlignment="Left" Margin="273,122,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="Button_Click_4"/>
+        <Button Content="SuperAttack" HorizontalAlignment="Left" Margin="410,122,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="Button_Click_5"/>
+        <Button Content="SuperHeal" HorizontalAlignment="Left" Margin="273,158,0,0" VerticalAlignment="Top" Height="31" Width="73" Click="Button_Click_6"/>
+        <Button Content="SuperHeal" HorizontalAlignment="Left" Margin="410,158,0,0" VerticalAlignment="Top" Height="31" Width="73"/>
+
+    </Grid>
+</Window>
